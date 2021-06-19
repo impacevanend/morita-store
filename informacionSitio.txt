@@ -44,6 +44,20 @@
     tamaño de fuente:
     Google fonts -> 100, 300, 600, 900
 
+Crear un nuevo repositorio en la linea de comandos:
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/impacevanend/morita-store.git
+git push -u origin main
     
+
+Subir un repositorio existente desde la linea de comandos:
+
+git remote add origin https://github.com/impacevanend/morita-store.git
+git branch -M main
+git push -u origin main
 
 -->
