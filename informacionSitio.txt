@@ -1,0 +1,49 @@
+    <!-- todo notas:
+-------------------------------------------
+    optimización de Bootstrap -> npm i -g purgecss
+
+    usage: purgecss --css <css> --content <content> [options] -> en package.json
+
+    comando por terminal: npm run build
+
+
+    ----------------------------------------
+
+    -----------------------------
+    Instalación de package.json
+    npm install
+
+  ------------------------------
+
+    Utilities:
+    Utilities > color 
+    Utilities > flex
+    Utilities > sizing
+    Utilities > Borders
+    Utilities > Spacing
+    Utilities > Text
+    Utilities > shadows-sm
+
+    Content:
+    Content > Typography
+
+    Customiz:
+    Sass
+    
+    _variables.scss:
+    linea 419 font-family-sans-serif: 
+
+    $container-max-widths:{
+        sm: 540px
+        md: 720px
+        lg: 960px
+        xl: 960px
+        xxl: 960px
+    }
+
+    tamaño de fuente:
+    Google fonts -> 100, 300, 600, 900
+
+    
+
+-->
