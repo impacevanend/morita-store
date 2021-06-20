@@ -92,7 +92,37 @@
                           </table>
                     </div>
                     <!-- *filtro -->
-                    <div class="col-12 col-md-4 p-2 border"><h2>Hola soy columna</h2></div>
+                    <div class="col-12 col-md-4 p-2 border">
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nombre del cliente</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el nombre a buscar...">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@electrónico.com">
+                          </div>
+                          <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">Grupo de cliente</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                              <option selected>Elige...</option>
+                              <option value="1">Por defecto</option>
+                            </select>
+                          </div>
+                          <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">Estado</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                              <option selected>Elige...</option>
+                              <option value="1">Activo</option>
+                              <option value="2">Inactivo</option>
+                            </select>
+                          </div>
+                          <div class="input-group mb-3" style="vertical-align: inherit;">
+                              <div style="vertical-align:inherit" class="pe-4">Fecha</div>
+                              <label for="datetime-local"></label>
+                          <input type="datetime-local" id="datetime-local" class="border-0">
+                          </div>
+                          <button type="button" class="btn btn-outline-primary">Filtrar</button>
+                    </div>
                 </div>
                 <div class="row">
                     <!-- *Migas de pan -->
