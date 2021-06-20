@@ -26,21 +26,87 @@
             <h1 class="bg-primary text-white display-1 ">Clientes</h1>
             <div class="col-12 col-lg-3 border bg-success">
                 <!--*menu  Columna izquierda-->
-                <h3>Hola soy menú</h3>
+                <h3 class="text-white">Hola soy menú</h3>
             </div>
 
 
             <div class="col-12 col-lg-9 border bg-secondary ">
                 <!--*menu  Columna derecha-->
                 <div class="row">
-                    <div class="col-12 col-lg-8 p-2 border"><h2>Hola soy columna</h2></div>
+                    <div class="col-12 col-lg-12 p-2 border">
+                        <ol class="breadcrumb alert alert-dark">
+                            <li class="breadcrumb-item h5">Clientes</li>
+                            <a class="breadcrumb-item active" href="../dashboard.html"  aria-current="page">Home</a>
+                            <a class="breadcrumb-item active alert-link" href="clientes.html"> Clientes</a>
+                        </ol>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 p-2 border"><h2>Hola soy columna</h2></div>
-                    <div class="col-12 col-md-6 p-2 border"><h2>Hola soy columna</h2></div>
+                    <!-- *lista de clientes -->
+                    <div class="col-12 col-md-8 p-2 border">
+                        <table class="table table-hover">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Nombre del cliente</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Grupo de cliente</th>
+                                <th scope="col">Estado</th>
+                                <th scope="col">Fecha Ingresada</th>
+                                <th scope="col">Acción</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                </th>
+                                <td>Mark</td>
+                                <td>Otto@gmail.com</td>
+                                </td>
+                                <td>Por defecto</td>
+                                <td>Activo</td>
+                                <td>domingo, 01 de junio de 2021</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                </th>
+                                <td>Jacob</td>
+                                <td>Thornton@gmail.com</td>
+                                </td>
+                                <td>Por defecto</td>
+                                <td>Activo</td>
+                                <td>domingo, 13 de junio de 2021</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                </th>
+                                <td >Larry the Bird</td>
+                                <td >LarrytheBird@gmail.com</td>
+                                <td>Por defecto</td>
+                                <td>Activo</td>
+                                <td>domingo, 18 de junio de 2021</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                    <!-- *filtro -->
+                    <div class="col-12 col-md-4 p-2 border"><h2>Hola soy columna</h2></div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-lg-12 p-2 border"><h2>Hola soy columna</h2></div>
+                    <!-- *Migas de pan -->
+                    <div class="col-12 col-lg-12 p-2 border">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item"><a class="page-link" href="../dashboard.html">Anterior</a></li>
+                              <li class="page-item"><a class="page-link" href="clientes.html">1</a></li>
+                              <li class="page-item"><a class="page-link" href="clientes.html">2</a></li>
+                              <li class="page-item"><a class="page-link" href="clientes.html">3</a></li>
+                              <li class="page-item"><a class="page-link" href="../dashboard.html">próximo</a></li>
+                            </ul>
+                          </nav>
+                    </div>
                 </div>
 
             </div>
