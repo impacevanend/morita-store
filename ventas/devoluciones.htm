@@ -24,23 +24,130 @@
 
     <div class="row">
             <h1 class="bg-primary text-white display-1 ">Devoluciones</h1>
-            <div class="col-12 col-lg-3 border bg-success text-white">
+            <div class="col-12 col-lg-3 border bg-success">
                 <!--*menu  Columna izquierda-->
-                <h3>Hola soy menú</h3>
+                <h3 class="text-white">Hola soy menú</h3>
             </div>
 
 
             <div class="col-12 col-lg-9 border bg-secondary ">
                 <!--*menu  Columna derecha-->
                 <div class="row">
-                    <div class="col-12 col-lg-8 p-2 border"><h2>Hola soy columna</h2></div>
+                    <div class="col-12 col-lg-12 p-2 border">
+                      <!-- *Migas de pan -->
+                        <ol class="breadcrumb alert alert-dark">
+                            <li class="breadcrumb-item h5">Devoluciones</li>
+                            <a class="breadcrumb-item active" href="../dashboard.html"  aria-current="page">Home</a>
+                            <a class="breadcrumb-item active alert-link" href="ordenes.html"> Devoluciones</a>
+                        </ol>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 p-2 border"><h2>Hola soy columna</h2></div>
-                    <div class="col-12 col-md-6 p-2 border"><h2>Hola soy columna</h2></div>
+                    <!-- *lista de clientes -->
+                    <div class="col-12 col-md-8 p-2 border table-responsive">
+                        <table class="table table-sm table-hover">
+                            <thead>
+                              <tr>
+                                <th scope="col"></th>
+                                <th scope="col">ID Devuelto</th>
+                                <th scope="col">ID Registrado</th>
+                                <th scope="col">Cliente</th>
+                                <th scope="col">Producto</th>
+                                <th scope="col">Modelo</th>
+                                <th scope="col">Estado</th>
+                                <th scope="col">Fecha Ingresada</th>
+                                <th scope="col">Fecha Modificada</th>
+                                <th scope="col">Acción</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                </th>
+                                <td>13456</td>
+                                <td>13456</td>
+                                <td>Mark</td>
+                                <td>Camisa</td>
+                                <td>Slim-fit</td>
+                                <td>pendiente</td>
+                                <td>domingo, 01 de junio de 2021</td>
+                                <td>martes, 03 de junio de 2021</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                </th>
+                                <td>13476</td>
+                                <td>13476</td>
+                                <td>Jacob</td>
+                                <td>Pantalón</td>
+                                <td>Slim-xs</td>
+                                <td>pendiente</td>
+                                <td>domingo, 13 de junio de 2021</td>
+                                <td>martes, 16 de junio de 2021</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                </th>
+                                <td >13486</td>
+                                <td >13486</td>
+                                <td >Larry the Bird</td>
+                                <td >Jogger</td>
+                                <td>Deportivo</td>
+                                <td>pendiente</td>
+                                <td>domingo, 18 de junio de 2021</td>
+                                <td>martes, 21 de junio de 2021</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                    <!-- *filtro -->
+                    <div class="col-12 col-md-4 p-2 border">
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nombre del cliente</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el nombre a buscar...">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@electrónico.com">
+                          </div>
+                          <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">Grupo de cliente</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                              <option selected>Elige...</option>
+                              <option value="1">Por defecto</option>
+                            </select>
+                          </div>
+                          <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">Estado</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                              <option selected>Elige...</option>
+                              <option value="1">Activo</option>
+                              <option value="2">Inactivo</option>
+                            </select>
+                          </div>
+                          <div class="input-group mb-3" style="vertical-align: inherit;">
+                              <div style="vertical-align:inherit" class="pe-4">Fecha</div>
+                              <label for="datetime-local"></label>
+                          <input type="datetime-local" id="datetime-local" class="border-0">
+                          </div>
+                          <button type="button" class="btn btn-outline-primary">Filtrar</button>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-lg-12 p-2 border"><h2>Hola soy columna</h2></div>
+                    <!-- *PAginación -->
+                    <div class="col-12 col-lg-12 p-2 border">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item"><a class="page-link" href="../dashboard.html">Anterior</a></li>
+                              <li class="page-item"><a class="page-link" href="devoluciones.html">1</a></li>
+                              <li class="page-item"><a class="page-link" href="devoluciones.html">2</a></li>
+                              <li class="page-item"><a class="page-link" href="devoluciones.html">3</a></li>
+                              <li class="page-item"><a class="page-link" href="../dashboard.html">próximo</a></li>
+                            </ul>
+                          </nav>
+                    </div>
                 </div>
 
             </div>
