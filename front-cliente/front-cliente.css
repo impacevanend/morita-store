@@ -1,6 +1,6 @@
 /*botones de navegacion*/
 .navbar-brand {
-  padding-left: 200px;
+  padding-left: 300px;
   font-weight: bold;
   font-size: 50px;
   color: #fff !important;
@@ -21,6 +21,11 @@
   border-radius: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+nav img {
+  border-radius: 20px !important;
+  opacity: 0.3;
 }
 
 /*animacion de los botones*/
