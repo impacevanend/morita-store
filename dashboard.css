@@ -1,3 +1,27 @@
+/*
+$primary:#D50110; //Rojo intenso
+$success:#09101B; //Azul oscuro
+$dark: #7C0309; //Rojo oscuro
+$secondary:#D6DCE3; //Blanco
+$info: #9D7C68;//Color piel
+
+
+Llamar variable:
+elemento {
+  background-color: var(--main-bg-color);
+}
+
+*/
+
+:root{
+  --rojo_intenso:#D50110;
+  --azul_oscuro:#09101B;
+  --rojo_oscuro:#7C0309;
+  --blanco:#D6DCE3;
+  --color_piel:#9D7C68;
+}
+
+
 
 .sidebar{
   
@@ -8,12 +32,13 @@
   left: 0px;
 }
 .sidebar .text{
-  color: white;
+
+  color:var(--blanco);
   font-size: 25px;
   font-weight: 500;
   line-height: 40px;
   text-align: center;
-  background: #09101B;
+  background: var(--azul_oscuro);
   letter-spacing: 1px;
 }
 nav ul{
@@ -31,7 +56,7 @@ nav ul li:last-child{
 }
 nav ul li a{
   position: relative;
-  color: white;
+  color:var(--blanco);
   text-decoration: none;
   font-size: 18px;
   padding-left: 40px;
@@ -41,13 +66,13 @@ nav ul li a{
   border-left: 3px solid transparent;
 }
 nav ul li.active a{
-  color: white;
-  background: #49556B;
-  border-left-color: #09101B;
+  color:var(--blanco);
+  background:var(--azul_oscuro);
+  border-left-color: var(--rojo_intenso);
 }
 nav ul li a:hover{
-  background: #18202D;
-  color:#e6e6e6;
+  background: var(--azul_oscuro);
+  color:var(--blanco);
 }
 nav ul ul{
   position: static;
@@ -71,17 +96,17 @@ nav ul ul li{
 }
 nav ul ul li a{
   font-size: 17px;
-  color: #e6e6e6;
+  color: var(--blanco);
   padding-left: 80px;
 }
 nav ul li.active ul li a{
-  color: #e6e6e6;
-  background: #49556B;
+  color: var(--blanco);
+  background: var(--azul_oscuro);
   border-left-color: transparent;
 }
 nav ul ul li a:hover{
-  color: #18202D!important;
-  background: #18202D!important;
+  color:var(--blanco)!important;
+  background: var(--rojo_oscuro)!important;
 }
 nav ul li a span{
   position: absolute;
