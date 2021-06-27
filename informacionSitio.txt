@@ -60,4 +60,7 @@ git remote add origin https://github.com/impacevanend/morita-store.git
 git branch -M main
 git push -u origin main
 
+
+información paleta de colores:
+https://uxdesign.cc/10-principles-for-color-usage-in-ui-design-65174b213004
 -->
