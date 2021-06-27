@@ -27,6 +27,7 @@ elemento {
   
   background: #1b1b1b;
   transition: left 0.4s ease;
+  
 }
 .sidebar.show{
   left: 0px;
