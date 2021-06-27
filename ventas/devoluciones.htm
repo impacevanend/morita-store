@@ -7,10 +7,13 @@
     <!--* fuentes -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700;900&display=swap" rel="stylesheet">
-<title>Bootstrap 5</title>
+<title>Devoluciones</title>
+<script src = "https://code.jquery.com/jquery-3.4.1.js" > </script> 
+<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
 <!--* Sass-Css -->
 <link rel="stylesheet" href="../sass/custom.css">
+<link rel="stylesheet" href="../dashboard.css"> 
 
 
 
@@ -26,7 +29,56 @@
             <h1 class="bg-primary text-white display-1 ">Devoluciones</h1>
             <div class="col-12 col-lg-3 border bg-success">
                 <!--*menu  Columna izquierda-->
-                <h3 class="text-white">Hola soy menú</h3>
+                <nav class="sidebar col-12 h-75">
+                  <div class="text">
+                     Menu
+                  </div>
+                  <ul>
+                     <li class=""><a href="#">Contenido:</a></li>
+                     <li>
+                        <a href="#" class="feat-btn"><i class="fas fa-tags me-2"></i>Catalogo
+                        <span class="fas fa-caret-down first"></span>
+                        </a>
+                        <ul class="feat-show">
+                           <li><a href="catalogo/catalogo.html">Catalogo</a></li>
+                           <li><a href="catalogo/productos.html">Productos</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="#" class="serv-btn"><i class="fab fa-cc-visa me-2"></i>Ventas
+                        <span class="fas fa-caret-down second"></span>
+                        </a>
+                        <ul class="serv-show">
+                           <li><a href="./ordenes.html">Ordenes</a></li>
+                           <li><a href="./perfilRecurrente.html">Perfil recurrente</a></li>
+                           <li><a href="./devoluciones.htm">Retornos</a></li>
+                        </ul>
+                     </li>
+                     <li class="mb-2">
+                        <a href="#" class="serv-cam"><i class="far fa-user me-2"></i>Clientes
+                        <span class="fas fa-caret-down second"></span>
+                        </a>
+                        <ul class="serv-cam">
+                           <li><a href="clients/clientes.html">Clientes</a></li>
+                           <li><a href="clients/clientes.html">Grupo de clientes</a></li>
+                           <li><a href="clients/aprobacionesClientes.html">Clientes aprobados</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="#" class="serv-cam2"><i class="far fa-chart-bar me-2"></i>Informes
+                        <span class="fas fa-caret-down second"></span>
+                        </a>
+                        <ul class="serv-cam2">
+                           <li><a href="reports/reportes.html">Informes</a></li>
+                           <li><a href="#">Reportes</a></li>
+                        </ul>
+                     </li>
+                     
+                  </ul>
+               </nav>
+
+
+
             </div>
 
 
@@ -159,6 +211,6 @@
       </div>
     </main>
     
-    
+    <script src="/js/menu.js"></script>
 </body>
 </html>
