@@ -5,12 +5,16 @@
     font-size: 50px;
     color: #fff !important;
 }
-
+.nombre{
+    font-size: 30px;
+    display: inline;
+}
 .first{
     padding-left: 100px;
 }
 .second{
-    padding-left: 200px;
+    padding-left: 350px;
+
 }
 .nav-link{
     font-weight: bold;
@@ -18,10 +22,6 @@
     margin-left: 7px;
     border-radius: 20px;
     transition: 0.5s;
-}
-nav img{
-    border-radius: 20px !important;
-    opacity: 0.3;
 }
 /*animacion de los botones*/
 .nav-link:hover{
@@ -110,4 +110,7 @@ footer{
     margin-top: 20px;
     cursor: pointer;
     padding: 20px;
+}
+li{
+    list-style: none;
 }

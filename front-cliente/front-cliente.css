@@ -6,12 +6,17 @@
   color: #fff !important;
 }
 
+.nombre {
+  font-size: 30px;
+  display: inline;
+}
+
 .first {
   padding-left: 100px;
 }
 
 .second {
-  padding-left: 200px;
+  padding-left: 350px;
 }
 
 .nav-link {
@@ -21,11 +26,6 @@
   border-radius: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-}
-
-nav img {
-  border-radius: 20px !important;
-  opacity: 0.3;
 }
 
 /*animacion de los botones*/
@@ -141,5 +141,9 @@ footer {
   margin-top: 20px;
   cursor: pointer;
   padding: 20px;
+}
+
+li {
+  list-style: none;
 }
 /*# sourceMappingURL=front-cliente.css.map */
